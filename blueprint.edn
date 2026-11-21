@@ -1,0 +1,7 @@
+{:itonami.blueprint/id "app-mimamori"
+ :itonami.blueprint/name "mimamori (見守り) — covenant keeping membrane"
+ ;; One classification key (itonami-lib blueprint.edn schema), chosen from
+ ;; README.md for the registry catalog (JUN-1439): isic-rev5 9499, checked against
+ ;; the ISIC Rev.5 structure table in cloud-itonami/app-itonami-org-un-isic.
+ :itonami.blueprint/isic-rev5 "9499"
+ :itonami.blueprint/domain :social/covenant-keeping}
